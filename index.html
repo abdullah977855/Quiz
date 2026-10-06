@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="heading">
+            Quiz
+        </h1>
+    </header>
+    <main>
+        <section id="quiz-section">
+            <div id="progress">
+                <progress max="" value="" id="quiz-progress"></progress>
+                <label for="quiz-progress" id="quiz-progress-label"></label>
+            </div>
+            <div id="question">
+                <span id="question-number">
+                </span>
+                <span id="question-write">
+                </span>
+            </div>
+            <div id="options">
+                <label for="option-one">
+                    <input type="radio" name="options" id="option-one">
+                    <span id="option-one-text">
+                    </span>
+                </label>
+                <label for="option-two">
+                    <input type="radio" name="options" id="option-two">
+                    <span id="option-two-text">
+                    </span>
+                </label>
+                <label for="option-three">
+                    <input type="radio" name="options" id="option-three">
+                    <span id="option-three-text">
+                    </span>
+                </label>
+                <label for="option-four">
+                    <input type="radio" name="options" id="option-four">
+                    <span id="option-four-text">
+                    </span>
+                </label>
+            </div>
+            <div id="button">
+                <button id="submit-next-button">Submit & Next</button>
+            </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>

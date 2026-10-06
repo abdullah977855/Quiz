@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #score {
+            font-size: 38px;
+            color: #D1EDD3;
+        }
+
+        #back-to-quiz {
+            width: 120px;
+            height: 40px;
+            border: 1px solid #D1EDD3;
+            border-radius: 12px;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: bold;
+            color: #5C7057;
+            background-color: #D1EDD3;
+        }
+
+        #back-to-quiz:hover {
+            color: #D1EDD3;
+            background-color: #5C7057;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 id="heading">
+            Quiz Score
+        </h1>
+    </header>
+    <main>
+        <section id="quiz-section">
+            <div id="score">
+            </div>
+            <div id="button">
+                <button id="back-to-quiz">Back to Quiz</button>
+            </div>
+        </section>
+    </main>
+    <script src="result.js"></script>
+</body>
+
+</html>

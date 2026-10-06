@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+body {
+    background-color: #5C7057;
+}
+
+#heading {
+    text-align: center;
+    font-size: 50px;
+    margin: 30px 0;
+    color: #D1EDD3;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#quiz-section {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    row-gap: 30px;
+    border: 2px solid #D1EDD3;
+    border-radius: 25px;
+    width: 58vw;
+}
+
+#progress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    color: #D1EDD3;
+}
+
+#question {
+    width: 550px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color: #D1EDD3;
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    row-gap: 10px;
+}
+
+#button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#quiz-progress-label {
+    font-size: 20px;
+}
+
+#quiz-progress {
+    width: 450px;
+}
+
+#quiz-progress {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 400px;
+    height: 15px;
+    border: 2px solid #D1EDD3;
+    border-radius: 20px;
+}
+
+#quiz-progress::-webkit-progress-value {
+    background-image: none;
+    background-color: #5C7057 !important;
+}
+
+#quiz-progress::-webkit-progress-bar {
+    background-color: #D1EDD3;
+}
+
+
+#question {
+    font-size: 23px;
+}
+
+#options>label {
+    font-size: 20px;
+    color: #D1EDD3;
+}
+
+#submit-next-button {
+    width: 120px;
+    height: 40px;
+    border: 1px solid #D1EDD3;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    color: #5C7057;
+    background-color: #D1EDD3;
+}
+
+#submit-next-button:hover {
+    color: #D1EDD3;
+    background-color: #5C7057;
+}
+
+#options input {
+    accent-color: #5C7057;
+}
